@@ -1,0 +1,23 @@
+{
+  "name": "web-scan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burgwyn/web-scan.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burgwyn/web-scan/issues"
+  },
+  "homepage": "https://github.com/burgwyn/web-scan#readme",
+  "dependencies": {
+    "puppeteer": "^19.2.0",
+    "puppeteer-core": "^19.2.0"
+  }
+}
