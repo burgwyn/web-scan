@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/burgwyn/web-scan#readme",
   "dependencies": {
+    "edge-paths": "^2.2.1",
     "puppeteer": "^19.2.0",
     "puppeteer-core": "^19.2.0"
   }

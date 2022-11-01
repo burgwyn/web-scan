@@ -1,7 +1,8 @@
 const puppeteer = require('puppeteer');
+const { getEdgePath } = require('edge-paths');
 
 (async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ executablePath: getEdgePath() });
   const page = await browser.newPage();
 
   await page.goto('https://developers.google.com/web/');
